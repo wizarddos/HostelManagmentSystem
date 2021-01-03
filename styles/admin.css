@@ -1,0 +1,57 @@
+#adminadd{
+    width: 25%;
+    height: 25%;
+    background-color: #2fe018;
+    text-align: center;
+    padding:5px;
+    font-size: larger;
+    margin-right: 5%;
+}
+#admindelete{
+    width: 25%;
+    height: 25%;
+    background-color: #e41515;
+    text-align: center;
+    padding:5px;
+    font-size: larger;
+    margin-right: 5%;
+}
+#admindelete:hover{
+    background-color: #cf1111;
+    border-radius: 10px;
+}
+#adminadd:hover{
+    background-color: #a9ff6f;
+    border-radius: 10px;
+}
+.admin-section{
+    margin: 5%;
+    height: 25%;
+}
+#adminchange{
+    width: 25%;
+    height: 25%;
+    background-color: #07a6c2;
+    text-align: center;
+    padding:5px;
+    font-size: larger;
+    margin-right: 5%;
+}
+textarea{
+    resize: none;
+    width: 25%;
+    height:20%;
+}
+#form{
+    width:100%;
+    height: auto;
+    text-align: center;
+    color:black;
+    font-family: 'Segoe UI', sans-serif;
+}
+.admintitle{ 
+    width:25% !important;
+}
+.adminsubmit{
+    width:25% !important;
+}
