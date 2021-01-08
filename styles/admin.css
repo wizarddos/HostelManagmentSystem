@@ -55,3 +55,39 @@ textarea{
 .adminsubmit{
     width:25% !important;
 }
+.admin-div{
+    margin: 5%;
+    height: 25%;
+    text-align: center;
+}
+#adminclear{
+    height: 25%;
+    width:25%;
+    background-color: #e7b308;
+}
+#adminclear:hover{
+    background-color: #cea41b;
+}
+.AdminDeleteOfert{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-align: center;
+}
+
+.cross-icon{
+    text-align: center; 
+    width: 20%;
+    background:none;
+    border: none;
+}
+.cross-icon:hover{
+    background-color: red;
+    border-radius: 5px;
+}
+fieldset{
+    text-align: center;
+}
+.AdminDeleteOfert > h3{
+    width: 100%;
+}
