@@ -19,7 +19,7 @@ function deletedir(){
             console.log("error");
         }
     }   
-    xhr.open('GET', 'ajax/JSONdelete.php', true);
+    xhr.open('GET', 'phpscripts/JSONdelete.php', true);
     xhr.send(null);
 }
 function clearview(){

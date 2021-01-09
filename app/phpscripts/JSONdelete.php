@@ -12,10 +12,14 @@ try{
         }else{
             $polecenie->execute();
             $result = $polecenie->get_result();
-            if($result->num_rows != 0){
+            if($result->num_rows > 0){
                 $resultassoc = $result->fetch_assoc();
-                $arr['rows'][] = $resultassoc;
-                echo json_encode($arr);
+                $assoc['rows'] = [];
+                foreach($result as $resultassoc){
+                        $assoc['rows'][] = $resultassoc;
+                }
+                echo json_encode($assoc);
+               
             }else{
             }
 
